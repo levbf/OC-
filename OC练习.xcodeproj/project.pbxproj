@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0A818D1CDB21DA00602D93 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A818C1CDB21DA00602D93 /* Student.m */; };
 		0FA714F81CD342CA0082CA3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA714F71CD342CA0082CA3C /* main.m */; };
+		0FA715001CD345E40082CA3C /* OC_array.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA714FF1CD345E40082CA3C /* OC_array.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F0A818B1CDB21DA00602D93 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = ../Student.h; sourceTree = "<group>"; };
+		0F0A818C1CDB21DA00602D93 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = ../Student.m; sourceTree = "<group>"; };
 		0FA714F41CD342CA0082CA3C /* OC练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA714F71CD342CA0082CA3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FA714FE1CD345E40082CA3C /* OC_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OC_array.h; sourceTree = "<group>"; };
+		0FA714FF1CD345E40082CA3C /* OC_array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OC_array.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		0FA714F61CD342CA0082CA3C /* OC练习 */ = {
 			isa = PBXGroup;
 			children = (
+				0F0A818B1CDB21DA00602D93 /* Student.h */,
+				0F0A818C1CDB21DA00602D93 /* Student.m */,
 				0FA714F71CD342CA0082CA3C /* main.m */,
+				0FA714FE1CD345E40082CA3C /* OC_array.h */,
+				0FA714FF1CD345E40082CA3C /* OC_array.m */,
 			);
 			path = "OC练习";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA714F81CD342CA0082CA3C /* main.m in Sources */,
+				0FA715001CD345E40082CA3C /* OC_array.m in Sources */,
+				0F0A818D1CDB21DA00602D93 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				0FA714FD1CD342CA0082CA3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
